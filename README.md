@@ -1,1 +1,47 @@
 # my-config-vscode
+
+{
+    "files.autoSave": "afterDelay",
+    "editor.cursorBlinking": "smooth",
+    "explorer.confirmDelete": false,
+    "editor.fontLigatures": false,
+    "editor.codeLensFontSize": 18,
+    "editor.find.addExtraSpaceOnTop": false,
+    "editor.codeLensFontFamily": "'Fira Code",
+    "editor.fontFamily": "Fira Code",
+    "editor.tabSize": 3,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.defaultDateFormat": "02/08/2002",
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "bounded",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "gitlens.currentLine.format": "${author, }${agoOrDate}${' via 'pullRequest}${ • message|50?}${committerAgo}",
+    "gitlens.statusBar.format": "${author}, ${agoOrDate}${' via 'pullRequest}${committerAgo}",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.accessibilityPageSize": 300,
+    "editor.autoIndent": "advanced",
+    "workbench.colorCustomizations": {},
+    "workbench.editor.autoLockGroups": {},
+    "terminal.integrated.fontWeight": "500",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    // Workbench
+    "workbench.editor.labelFormat": "short",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.untitled.hint": "hidden",
+    // Editor settings
+    "editor.fontSize": 18,
+    "editor.lineHeight": 20,
+    "terminal.integrated.fontSize": 19,
+    // "editor.fontFamily": "JetBrains Mono, Fira Code",
+    "editor.renderLineHighlight": "gutter",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "window.commandCenter": true,
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+}
